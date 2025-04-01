@@ -1,0 +1,57 @@
+# Project Intelligence
+
+## Naming Conventions
+- Use descriptive, meaningful names that reflect functionality
+- Components in PascalCase (e.g., VehicleDashboard, MaintenanceScheduler)
+- Functions in camelCase (e.g., getVehicleStatus, calculateRentalCost)
+- Constants in UPPER_SNAKE_CASE (e.g., MAX_RENTAL_PERIOD, DEFAULT_MAINTENANCE_INTERVAL)
+- Files named after their primary component/functionality
+- Module names should clearly indicate their business domain
+
+## Code Organization Patterns
+- Modular architecture with clear separation of concerns
+- Core platform as foundation with feature modules built on top
+- Frontend following component-based organization
+- Backend structured around domain-driven modules
+- API endpoints organized by feature/domain
+- Service layer for business logic
+- Repository pattern for data access
+
+## Workflow Preferences
+- Git-based workflow with feature branches
+- Pull request reviews before merging
+- Weekly development sprints (SD.XX format)
+- 2-day review period after each sprint
+- Continuous integration with automated testing
+- Regular customer feedback incorporation
+
+## Common Patterns
+- Centralized state management for frontend
+- Event-driven communication between modules
+- Repository pattern for data access
+- Factory pattern for service instantiation
+- Strategy pattern for business rule implementation
+- Observer pattern for notification handling
+
+## Known Challenges
+- Balancing modularity with integration complexity
+- Ensuring consistent user experience across customized workflows
+- Managing performance with increasing data volume
+- Supporting various rental business models within one platform
+- Maintaining security with multiple integration points
+
+## Tool Usage
+- JIRA for project management and sprint tracking
+- Git for version control
+- Documentation in Markdown format
+- Memory bank for project knowledge persistence
+- Automated testing tools for CI/CD pipeline
+
+## Project-Specific Rules
+- Focus on modularity, scalability, and extensibility as core architectural principles
+- Design for future expansion to other rental sectors
+- Prioritize user experience and interface aesthetics
+- Aim for 80% coverage of critical business needs in initial release
+- Maintain clear module boundaries with defined interfaces
+- Follow weekly sprint cadence with regular customer feedback
+- Document architectural decisions and their rationale 
